@@ -1,6 +1,7 @@
 // Variables
 
 // Colors
+$brand_color: #006b9c !default;
 $background_color: #fff;
 $hover-button-color: zass-darken($brand_color, 20%);
 $secondary-text-color: zass-lighten($text_color, 20%);
@@ -29,6 +30,9 @@ $tablet-width: 768px;
 $desktop-width: 1024px;
 $max-width-container: 1160px;
 
+// Fonts
+$font-weight-base: 400;
+$font-weight-light: 300;
 $font-weight-semibold: 600;
 
 // Transitions
