@@ -78,10 +78,10 @@
         { "label": "Helvetica Neue", "value": "'Helvetica Neue', Arial, Helvetica, sans-serif" },
         { "label": "Impact", "value": "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif" },
         { "label": "Lucida Grande", "value": "'Lucida Grande', 'Lucida Sans', 'Lucida Sans Unicode', sans-serif" },
-        { "label": "Rajdhani", "value": "'Rajdhani', 'Lucida Sans', 'Lucida Sans Unicode', sans-serif" },
+        { "label": "Montserrat", "value": "'Montserrat', 'Lucida Sans', 'Lucida Sans Unicode', sans-serif" },
         { "label": "Trebuchet MS", "value": "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif" }
       ],
-      "value": "'Rajdhani', 'Lucida Sans', 'Lucida Sans Unicode', sans-serif"
+      "value": "'Montserrat', 'Lucida Sans', 'Lucida Sans Unicode', sans-serif"
     }, {
       "identifier": "text_font",
       "type": "list",
@@ -103,10 +103,10 @@
         { "label": "Helvetica Neue", "value": "'Helvetica Neue', Arial, Helvetica, sans-serif" },
         { "label": "Impact", "value": "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif" },
         { "label": "Lucida Grande", "value": "'Lucida Grande', 'Lucida Sans', 'Lucida Sans Unicode', sans-serif" },
-        { "label": "Rajdhani", "value": "'Rajdhani', 'Lucida Sans', 'Lucida Sans Unicode', sans-serif" },
+        { "label": "Montserrat", "value": "'Montserrat', 'Lucida Sans', 'Lucida Sans Unicode', sans-serif" },
         { "label": "Trebuchet MS", "value": "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif" }
       ],
-      "value": "'Rajdhani', 'Lucida Sans', 'Lucida Sans Unicode', sans-serif"
+      "value": "'Montserrat', 'Lucida Sans', 'Lucida Sans Unicode', sans-serif"
     }]
   }, {
     "label": "brand_group_label",
