@@ -164,11 +164,11 @@
       "label": "mit_link_label",
       "value": "https://mit.edu/"
     }, {
-      "identifier": "xpro_link",
+      "identifier": "mitxonline_link",
       "type": "text",
-      "description": "xpro_link_description",
-      "label": "xpro_link_label",
-      "value": "https://xpro.mit.edu/"
+      "description": "mitxonline_link_description",
+      "label": "mitxonline_link_label",
+      "value": "https://mitxonline.mit.edu/"
     }]
   }, {
     "label": "search_group_label",
@@ -303,31 +303,31 @@
       "type": "text",
       "description": "mit_home_description",
       "label": "mit_home_label",
-      "value": "https://xpro.mit.edu/"
+      "value": "https://mitxonline.mit.edu/"
     }, {
       "identifier": "mit_about_us",
       "type": "text",
       "description": "mit_about_us_description",
       "label": "mit_about_us_label",
-      "value": "https://xpro.mit.edu/about-us/"
+      "value": "https://mitxonline.mit.edu/about-us/"
     }, {
       "identifier": "mit_tos",
       "type": "text",
       "description": "mit_tos_description",
       "label": "mit_tos_label",
-      "value": "https://xpro.mit.edu/terms-of-service/"
+      "value": "https://mitxonline.mit.edu/terms-of-service/"
     }, {
       "identifier": "mit_privacy_policy",
       "type": "text",
       "description": "mit_privacy_policy_description",
       "label": "mit_privacy_policy_label",
-      "value": "https://xpro.mit.edu/privacy-policy/"
+      "value": "https://mitxonline.mit.edu/privacy-policy/"
     }, {
       "identifier": "mit_honor_code",
       "type": "text",
       "description": "mit_honor_code_description",
       "label": "mit_honor_code_label",
-      "value": "https://xpro.mit.edu/honor-code/"
+      "value": "https://mitxonline.mit.edu/honor-code/"
     }]
   }]
 }
