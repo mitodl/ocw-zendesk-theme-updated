@@ -316,11 +316,11 @@
           "value": "https://mit.edu/"
         },
         {
-          "identifier": "xpro_link",
+          "identifier": "mitxonline_link",
           "type": "text",
-          "description": "xpro_link_description",
-          "label": "xpro_link_label",
-          "value": "https://xpro.mit.edu/"
+          "description": "mitxonline_link_description",
+          "label": "mitxonline_link_label",
+          "value": "https://mitxonline.mit.edu/"
         }
       ]
     },
