@@ -670,7 +670,7 @@ ul {
   float: left;
   margin: 0 10px 0 0;
 }
-.logo .mit-link, .logo .xpro-link {
+.logo .mit-link, .logo .mitxonline-link {
   position: absolute;
   z-index: 2;
   opacity: 0.5;
@@ -681,10 +681,10 @@ ul {
   width: 72px;
   height: 39px;
 }
-.logo .xpro-link {
+.logo .mitxonline-link {
   left: 100px;
   top: 15px;
-  width: 69px;
+  width: 190px;
   height: 25px;
 }
 @media (min-width: 768px) {
