@@ -689,7 +689,7 @@ ul {
 }
 @media (min-width: 768px) {
   .logo {
-    width: 170px;
+    width: 300px;
     margin: 0 20px 0 0;
   }
 }
