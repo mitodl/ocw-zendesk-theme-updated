@@ -36,7 +36,7 @@ $header-height: 71px;
   float: left;
   margin: 0 10px 0 0;
 
-  .mit-link, .xpro-link {
+  .mit-link, .mitxonline-link {
     position: absolute;
     z-index: 2;
     opacity: .5;
@@ -49,10 +49,10 @@ $header-height: 71px;
     height: 39px;
   }
 
-  .xpro-link {
+  .mitxonline-link {
     left: 100px;
     top: 15px;
-    width: 69px;
+    width: 190px;
     height: 25px;
   }
 
