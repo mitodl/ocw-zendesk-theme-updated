@@ -2,20 +2,19 @@
   <div class="header-left">
     <div class="logo">
       <a href={{settings.mit_link}} class="mit-link" />
-      <a href={{settings.mitxonline_link}} class="mitxonline-link"> </a>
+      <a href={{settings.ocw_link}} class="mitxonline-link"> </a>
       <img src="{{settings.logo}}" class="site-logo" />
     </div>
     {{#link 'help_center' class="support-center"}}
-      SUPPORT CENTER
+      Help Center
     {{/link}}
-
   </div>
+  
   <div class="nav-wrapper">
     <span class="icon-menu" tabindex="0" role="button" aria-controls="user-nav" aria-expanded="false"
       aria-label="{{t 'toggle_navigation'}}"></span>
     <nav class="user-nav" id="user-nav">
-      {{#link 'new_request' class='submit-a-request'}}Contact Us{{/link}}
-      <!-- {{link 'community'}} -->
+        {{#link 'new_request' class='submit-a-request'}}Contact Us{{/link}}
     </nav>
     {{#if settings.show_user_info}}
       {{user_info}}

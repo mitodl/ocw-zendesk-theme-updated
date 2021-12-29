@@ -2,18 +2,35 @@
 $header-height: 71px;
 
 .header {
-
+  
   .submit-a-request {
-    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0;
+
+    &:hover {
+      color: white !important;  
+    }
   }
 
-  @include max-width-container;
+  background-color: $header_background_color;
+  width: 100%;
   position: relative;
   align-items: center;
   display: flex;
   justify-content: space-between;
-  padding-top: 20px !important;
-  padding-bottom: 20px !important;
+  padding: 20px 2% !important;
+
+  @include mobile {
+    padding: 5px 32px;
+    
+    .logo img{
+      width: 200px; 
+    }
+
+  }
+  
 }
 
 .support-center {
@@ -86,6 +103,7 @@ $header-height: 71px;
     > a {
       display: block;
       margin: 20px;
+      color: black !important;
     }
   }
 }
@@ -120,7 +138,7 @@ $header-height: 71px;
   .icon-menu {
     @include tablet { display: none; }
     border: 0;
-    color: $link_color;
+    color: white;
     cursor: pointer;
     display: inline-block;
     margin-right: 10px;
@@ -136,7 +154,7 @@ $header-height: 71px;
     &:focus,
     &:active {
       background-color: transparent;
-      color: $link_color;
+      color: white;
     }
   }
 }
