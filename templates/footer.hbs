@@ -13,25 +13,27 @@
         </div>
       </div>
   {{/if}}
-  <div class="footer-inner">
-    <div class="company-info">
-        <img src="{{settings.mit_footer_logo}}">
-        <address>
-          {{settings.mit_address}}
-        </address>
+
+ <div class="footer_container">
+      <div class="footer-top">
+        <div class="mit-info">
+          <img src="{{settings.mit_footer_logo}}" alt="MIT" loading="lazy"/>
+            <address>{{settings.mit_address}}</address>
+        </div>
+      <div class="right-info">
       </div>
-    <ul class="footer-nav">
-      <li><a href={{settings.mit_home}}>MITx Online Home</a></li>
-      <li><a href={{settings.mit_about_us}}>About Us</a></li>
-    </ul>
-    <div class="center-content">
-      <ul class="footer-sub-nav">
-        <li><a href={{settings.mit_tos}}>Terms of Service</a></li>
-        <li><a href={{settings.mit_privacy_policy}}>Privacy Policy</a></li>
-        <li><a href={{settings.mit_honor_code}}>Honor Code</a></li>
-      </ul>
-      <span class="copyright">© <span id="date"></span> All rights reserved. <a href={{settings.mit_home}}>MITx Online</a>.</span>
     </div>
+    <div class="row footer-bottom">
+      <ul class="footer-sub-nav">
+        <li><a href="{{settings.ocw_privacy_policy}}">Privacy and Terms of Use</a></li>
+        <li><a href="{{settings.ocw_creative_common}}">Creative Commons License</a></li>
+        <li><a href="{{settings.ocw_accessibility}}">Accessibility</a></li>
+      </ul>
+
+      <span class="copyright">© <span id="date"></span> Massachusetts Institute of Technology</span>
+
+    </div>
+
     <div class="footer-language-selector">
       {{#if alternative_locales}}
         <div class="dropdown language-selector">
@@ -52,6 +54,7 @@
       {{/if}}
     </div>
   </div>
+ </div>
 </footer>
 <script>
   document.getElementById("date").append(new Date().getFullYear());

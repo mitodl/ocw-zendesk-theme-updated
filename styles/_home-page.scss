@@ -91,10 +91,10 @@
   .blocks-list {
 
     li {
-      border-color: $link_color;
+      border-color: $brand_color;
 
       h4 {
-        color: $link_color;
+        color: $brand_color;
         font-size: 24px;
         line-height: 25px;
         font-weight: 600;
@@ -113,7 +113,7 @@
         a {
 
           h4 {
-            color: $link_color;
+            color: $brand_color;
           }
 
           p {

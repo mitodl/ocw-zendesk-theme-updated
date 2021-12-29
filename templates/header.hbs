@@ -4,11 +4,11 @@
   <div class="header-left">
     <div class="logo">
       <a href={{settings.mit_link}} class="mit-link" />
-      <a href={{settings.mitxonline_link}} class="mitxonline-link"> </a>
+      <a href={{settings.ocw_link}} class="mitxonline-link"> </a>
       <img src="{{settings.logo}}" class="site-logo" />
     </div>
     {{#link 'help_center' class="support-center"}}
-      SUPPORT CENTER
+      Help Center
     {{/link}}
 
    </div>
@@ -16,7 +16,6 @@
   <div class="nav-wrapper-desktop">
     <nav class="user-nav" id="user-nav" aria-label="{{t 'user_navigation'}}">
       <ul class="user-nav-list">
-{{!--         <li>{{link 'community'}}</li> --}}
         <li>{{#link 'new_request' class='submit-a-request'}}Contact Us{{/link}}</li>
         {{#unless signed_in}}
           <li>
@@ -85,7 +84,6 @@
           </li>
           <li class="nav-divider"></li>
         {{/if}}
-{{!--         <li class="item">{{link 'community' role="menuitem"}}</li> --}}
         <li class="item">{{#link 'new_request' class='submit-a-request'}}Contact Us{{/link}}</li>
         <li class="nav-divider"></li>
         {{#if signed_in}}
