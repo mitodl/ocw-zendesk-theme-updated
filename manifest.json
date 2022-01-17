@@ -11,7 +11,7 @@
       "type": "color",
       "description": "brand_color_description",
       "label": "brand_color_label",
-      "value": "#006b9c"
+      "value": "#A31F34"
     }, {
       "identifier": "brand_text_color",
       "type": "color",
@@ -53,8 +53,15 @@
       "type": "color",
       "description": "site_theme_base_color_description",
       "label": "site_theme_base_color_label",
-      "value": "#A32034"
-    }]
+      "value": "#FD9D01"
+    },{
+      "identifier": "header_background_color",
+      "type": "color",
+      "description": "header_background_color_description",
+      "label": "header_background_color_label",
+      "value": "#000000"
+    }
+  ]
   }, {
     "label": "fonts_group_label",
     "variables": [{
@@ -64,7 +71,7 @@
       "label": "heading_font_label",
       "options": [
         { "label": "System", "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" },
-        { "label": "Arial", "value": "Arial, 'Helvetica Neue', Helvetica, sans-serif" },
+        { "label": "Arial", "value": "'Arial', 'Helvetica Neue', 'Helvetica', sans-serif" },
         { "label": "Arial Black", "value": "'Arial Black', Arial, 'Helvetica Neue', Helvetica, sans-serif" },
         { "label": "Baskerville", "value": "Baskerville, 'Times New Roman', Times, serif" },
         { "label": "Century Gothic", "value": "'Century Gothic', AppleGothic, sans-serif" },
@@ -81,7 +88,7 @@
         { "label": "Montserrat", "value": "'Montserrat', 'Lucida Sans', 'Lucida Sans Unicode', sans-serif" },
         { "label": "Trebuchet MS", "value": "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif" }
       ],
-      "value": "'Montserrat', 'Lucida Sans', 'Lucida Sans Unicode', sans-serif"
+      "value": "Helvetica, Arial, sans-serif"
     }, {
       "identifier": "text_font",
       "type": "list",
@@ -106,7 +113,7 @@
         { "label": "Montserrat", "value": "'Montserrat', 'Lucida Sans', 'Lucida Sans Unicode', sans-serif" },
         { "label": "Trebuchet MS", "value": "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif" }
       ],
-      "value": "'Montserrat', 'Lucida Sans', 'Lucida Sans Unicode', sans-serif"
+      "value": "Helvetica, Arial, sans-serif"
     }]
   }, {
     "label": "brand_group_label",
@@ -134,7 +141,7 @@
       "description": "community_background_image_description",
       "label": "community_background_image_label"
     }, {
-      "identifier": "mit_background",
+      "identifier": "ocw_background",
       "type": "file",
       "description": "background_image_description",
       "label": "Background image"
@@ -164,12 +171,20 @@
       "label": "mit_link_label",
       "value": "https://mit.edu/"
     }, {
-      "identifier": "mitxonline_link",
+      "identifier": "ocw_link",
       "type": "text",
-      "description": "mitxonline_link_description",
-      "label": "mitxonline_link_label",
-      "value": "https://mitxonline.mit.edu/"
-    }]
+      "description": "ocw_description",
+      "label": "ocw_label",
+      "value": "https://ocwnext.odl.mit.edu"
+    },
+    {
+      "identifier": "submit_request",
+      "type": "text",
+      "description": "submit_request_description",
+      "label": "submit_request_label",
+      "value": ""
+    }
+  ]
   }, {
     "label": "search_group_label",
     "variables":[{
@@ -297,7 +312,7 @@
       "type": "text",
       "description": "mit_address_description",
       "label": "mit_address_label",
-      "value": "Massachusetts Institute of Technology 77 Massachusetts Avenue Cambridge, MA 02139"
+      "value": "Massachusetts Institute of Technology\n77 Massachusetts Avenue Cambridge, MA 02139"
     }, {
       "identifier": "mit_home",
       "type": "text",
@@ -305,29 +320,25 @@
       "label": "mit_home_label",
       "value": "https://mitxonline.mit.edu/"
     }, {
-      "identifier": "mit_about_us",
+      "identifier": "ocw_privacy_policy",
       "type": "text",
-      "description": "mit_about_us_description",
-      "label": "mit_about_us_label",
-      "value": "https://mitxonline.mit.edu/about-us/"
-    }, {
-      "identifier": "mit_tos",
+      "description": "ocw_privacy_policy_description",
+      "label": "ocw_privacy_policy_label",
+      "value": "https://ocw.mit.edu/terms/"
+    },
+    {
+      "identifier": "ocw_creative_common",
       "type": "text",
-      "description": "mit_tos_description",
-      "label": "mit_tos_label",
-      "value": "https://mitxonline.mit.edu/terms-of-service/"
-    }, {
-      "identifier": "mit_privacy_policy",
+      "description": "ocw_creative_common_description",
+      "label": "ocw_creative_common_label",
+      "value": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    {
+      "identifier": "ocw_accessibility",
       "type": "text",
-      "description": "mit_privacy_policy_description",
-      "label": "mit_privacy_policy_label",
-      "value": "https://mitxonline.mit.edu/privacy-policy/"
-    }, {
-      "identifier": "mit_honor_code",
-      "type": "text",
-      "description": "mit_honor_code_description",
-      "label": "mit_honor_code_label",
-      "value": "https://mitxonline.mit.edu/honor-code/"
+      "description": "ocw_accessibility_description",
+      "label": "ocw_accessibility_label",
+      "value": "https://accessibility.mit.edu/"
     }]
   }]
 }
