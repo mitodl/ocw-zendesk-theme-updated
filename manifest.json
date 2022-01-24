@@ -330,11 +330,11 @@
           "value": "https://ocwnext.odl.mit.edu"
         },
         {
-          "identifier": "submit_request",
+          "identifier": "contact_us",
           "type": "text",
-          "description": "submit_request_description",
-          "label": "submit_request_label",
-          "value": ""
+          "description": "contact_us_description",
+          "label": "contact_us_label",
+          "value": "https://ocw.mit.edu/about/contactus/"
         }
       ]
     },
