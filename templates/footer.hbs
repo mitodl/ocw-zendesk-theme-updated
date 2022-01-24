@@ -3,13 +3,17 @@
       <div class="contact-block">
         <div class="footer-inner">
           <h1>{{settings.contact_us_header}}</h1>
-          {{#link 'new_request' class='submit-a-request btn' role='button'}}
-            Contact Us
+          {{#if settings.contact_us}}
+            <a href={{settings.contact_us}} class="submit-a-request btn" role="button">Contact Us</a>
           {{else}}
-          <span class='link-not-found'>
-            Contact Us link is not available for you.
-          </span>
-          {{/link}}
+            {{#link 'new_request' class='submit-a-request btn' role='button'}}
+              Contact Us
+            {{else}}
+            <span class='link-not-found'>
+              Contact Us link is not available for you.
+            </span>
+            {{/link}}
+          {{/if}}
         </div>
       </div>
   {{/if}}
