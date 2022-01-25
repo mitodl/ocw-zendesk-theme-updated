@@ -14,7 +14,11 @@
     <span class="icon-menu" tabindex="0" role="button" aria-controls="user-nav" aria-expanded="false"
       aria-label="{{t 'toggle_navigation'}}"></span>
     <nav class="user-nav" id="user-nav">
-        {{#link 'new_request' class='submit-a-request'}}Contact Us{{/link}}
+        {{#if settings.contact_us}}
+          <a href={{settings.contact_us}} class="submit-a-request">Contact Us</a>
+        {{else}}
+          {{#link 'new_request' class='submit-a-request'}}Contact Us{{/link}}
+        {{/if}}
     </nav>
     {{#if settings.show_user_info}}
       {{user_info}}
