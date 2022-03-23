@@ -327,14 +327,14 @@
           "type": "text",
           "description": "ocw_description",
           "label": "ocw_label",
-          "value": "https://ocwnext.odl.mit.edu"
+          "value": "https://ocw.mit.edu"
         },
         {
           "identifier": "contact_us",
           "type": "text",
           "description": "contact_us_description",
           "label": "contact_us_label",
-          "value": "https://ocw.mit.edu/about/contactus/"
+          "value": "https://ocw.mit.edu/contact/"
         }
       ]
     },
@@ -502,14 +502,14 @@
           "type": "text",
           "description": "mit_home_description",
           "label": "mit_home_label",
-          "value": "https://xpro.mit.edu/"
+          "value": "https://mit.edu/"
         },
         {
           "identifier": "ocw_privacy_policy",
           "type": "text",
           "description": "ocw_privacy_policy_description",
           "label": "ocw_privacy_policy_label",
-          "value": "https://ocw.mit.edu/terms/"
+          "value": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
         },
         {
           "identifier": "ocw_creative_common",
