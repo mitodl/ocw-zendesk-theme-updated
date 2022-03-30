@@ -6,7 +6,7 @@
       <img src="{{settings.logo}}" class="site-logo" />
     </div>
     {{#link 'help_center' class="support-center"}}
-      Help Center
+      HELP & FAQS
     {{/link}}
   </div>
   
@@ -15,9 +15,9 @@
       aria-label="{{t 'toggle_navigation'}}"></span>
     <nav class="user-nav" id="user-nav">
         {{#if settings.contact_us}}
-          <a href={{settings.contact_us}} class="submit-a-request">Contact Us</a>
+          <a href={{settings.contact_us}} class="submit-a-request">CONTACT US</a>
         {{else}}
-          {{#link 'new_request' class='submit-a-request'}}Contact Us{{/link}}
+          {{#link 'new_request' class='submit-a-request'}}CONTACT US{{/link}}
         {{/if}}
     </nav>
     {{#if settings.show_user_info}}
