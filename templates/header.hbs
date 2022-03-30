@@ -8,7 +8,7 @@
       <img src="{{settings.logo}}" class="site-logo" />
     </div>
     {{#link 'help_center' class="support-center"}}
-      Help Center
+      HELP & FAQS
     {{/link}}
 
    </div>
@@ -17,9 +17,9 @@
     <nav class="user-nav" id="user-nav" aria-label="{{t 'user_navigation'}}">
       <ul class="user-nav-list">
         {{#if settings.contact_us}}
-          <a href={{settings.contact_us}} class="submit-a-request">Contact Us</a>
+          <a href={{settings.contact_us}} class="submit-a-request">CONTACT US</a>
         {{else}}
-          <li>{{#link 'new_request' class='submit-a-request'}}Contact Us{{/link}}</li>
+          <li>{{#link 'new_request' class='submit-a-request'}}CONTACT US{{/link}}</li>
         {{/if}}
         {{#unless signed_in}}
           <li>
@@ -89,9 +89,9 @@
           <li class="nav-divider"></li>
         {{/if}}
         {{#if settings.contact_us}}
-          <a href={{settings.contact_us}} class="submit-a-request">Contact Us</a>
+          <a href={{settings.contact_us}} class="submit-a-request">CONTACT US</a>
         {{else}}
-          <li class="item">{{#link 'new_request' class='submit-a-request'}}Contact Us{{/link}}</li>
+          <li class="item">{{#link 'new_request' class='submit-a-request'}}CONTACT US{/link}}</li>
         {{/if}}
         <li class="nav-divider"></li>
         {{#if signed_in}}
