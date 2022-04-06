@@ -194,3 +194,16 @@
   width: 1px;
   white-space: nowrap;
 }
+
+@mixin footer-row {
+  display: flex;
+  flex-direction: row;
+  margin-left: 0;
+  margin-right: 0;
+  justify-content: space-between;
+  padding-bottom: 1.5rem !important;
+}
+
+@mixin row-gap-20 {
+  row-gap: 20px;
+}
