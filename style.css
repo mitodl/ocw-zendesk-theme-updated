@@ -695,9 +695,23 @@ ul {
 
 /***** Footer *****/
 .footer_container {
-  padding: 0 32px !important;
-  max-width: 100%;
-  margin-top: 0 !important;
+  display: flex;
+  padding: 35px 50px 30px 50px;
+  flex-direction: column;
+  border-top: 1px solid #d2d2d2;
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .footer_container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.my-0 {
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .footer {
@@ -780,66 +794,147 @@ ul {
 }
 
 .footer .footer-top {
-  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 0;
+  margin-right: 0;
+  justify-content: space-between;
+  padding-bottom: 1.5rem !important;
+  flex-flow: row wrap;
 }
 
-.footer .footer-top:after {
-  clear: both;
-  content: '';
-  display: block;
+.footer .footer-top #open-learning-logo img {
+  width: 220px;
 }
 
-.footer .footer-bottom {
-  padding-top: 54px;
-  flex-direction: row-reverse;
+.footer .footer-top .support-link-container {
+  display: flex;
+  align-items: center;
+}
+
+.footer .footer-top .support-link-container a {
+  font-size: 16px;
+  text-decoration: underline;
+  font-weight: bold;
+  padding-left: 10px;
 }
 
 @media (max-width: 768px) {
-  .footer .footer-bottom {
-    padding-top: 0;
+  .footer .footer-top .support-link-container {
+    display: none !important;
   }
+}
+
+.footer .footer-mid {
+  display: flex;
+  flex-direction: row;
+  margin-left: 0;
+  margin-right: 0;
+  justify-content: space-between;
+  padding-bottom: 1.5rem !important;
+  row-gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .footer .footer-mid {
+    flex-direction: column;
+  }
+}
+
+.footer .footer-mid .about-courseware {
+  width: 50%;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .footer .footer-mid .about-courseware {
+    width: 100%;
+  }
+}
+
+.footer .footer-mid .oeg-section {
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: 0;
+  margin-right: 0;
+  align-items: center;
+}
+
+.footer .footer-mid .oeg-section p {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer .footer-mid .oeg-section p a img {
+  vertical-align: middle !important;
+}
+
+.footer .footer-mid .support-links-sm {
+  row-gap: 20px;
+  display: none;
+}
+
+.footer .footer-mid .support-links-sm a {
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .footer .footer-mid .support-links-sm {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    font-weight: bold;
+  }
+}
+
+.footer .footer-bottom {
+  display: flex;
+  flex-direction: row;
+  margin-left: 0;
+  margin-right: 0;
+  justify-content: space-between;
+  padding-bottom: 1.5rem !important;
+  row-gap: 20px;
+  flex-flow: row wrap-reverse;
+}
+
+.footer .footer-bottom .copyright-section {
+  display: flex;
+  align-items: end;
+  margin-right: 1rem !important;
+}
+
+.footer .footer-bottom .copyright-section p {
+  font-size: 16px;
+}
+
+.footer .footer-bottom .footer-social-icon {
+  height: 24px;
+}
+
+.footer .footer-bottom .horizontal-list {
+  display: flex;
+  margin-top: auto;
+}
+
+.footer .footer-bottom .horizontal-list ul {
+  list-style: none;
+  margin: 0;
+}
+
+.footer .footer-bottom .horizontal-list ul li {
+  display: inline-block;
+  padding-right: 28px;
+  margin-bottom: 5px;
+}
+
+.footer .footer-bottom .horizontal-list ul li:last-child {
+  padding-right: 0px;
 }
 
 .footer a {
   color: black;
-}
-
-.footer .mit-info {
-  font-size: 14px;
-  line-height: 24px;
-}
-
-@media (min-width: 1024px) {
-  .footer .mit-info {
-    padding: 0;
-    float: left;
-    width: 44%;
-  }
-}
-
-@media (max-width: 768px) {
-  .footer .mit-info {
-    padding-bottom: 32px;
-  }
-}
-
-.footer .mit-info img {
-  width: 78px;
-  height: 41px;
-  margin: 0 auto 15px;
-  margin: 5px 22px 0 0;
-}
-
-.footer .mit-info address {
-  overflow: hidden;
-  display: inline-block;
-  margin: 0;
-  font-style: normal;
-  white-space: pre-line;
-}
-
-.footer .mit-info .copyright {
-  text-align: left;
 }
 
 .footer .right-info {
@@ -949,6 +1044,10 @@ ul {
   .footer .container {
     padding: 0 32px;
   }
+}
+
+.footer #open-learning-logo img {
+  width: 220px;
 }
 
 .powered-by-zendesk {

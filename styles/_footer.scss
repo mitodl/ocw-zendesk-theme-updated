@@ -1,8 +1,21 @@
 /***** Footer *****/
 .footer_container {
-  padding: 0 32px !important;
-  max-width: 100%;
-  margin-top: 0 !important;
+  display: flex;
+  padding: 35px 50px 30px 50px;
+  flex-direction: column;
+  border-top: 1px solid #d2d2d2;
+  width: 100%;
+
+  @media (max-width: $desktop-width){
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+}
+
+.my-0 {
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .footer {
@@ -79,62 +92,133 @@
       border-radius: 5px;
     }
   }
-  .footer-top {
-    padding-top: 30px;
 
-    &:after {
-      clear: both;
-      content: '';
-      display: block;
+
+
+  .footer-top {
+    @include footer-row;
+    flex-flow: row wrap;
+
+    #open-learning-logo {
+      img {
+        width: 220px;
+      }
+    }
+
+    .support-link-container {
+      display: flex;
+      align-items: center;
+
+      a {
+        font-size: 16px;
+        text-decoration: underline;
+        font-weight: bold;
+        padding-left: 10px;
+      }
+
+      @include mobile {
+        display: none !important;
+      }
     }
   }
 
-  .footer-bottom {
-    padding-top: 54px;
-    flex-direction: row-reverse;
+  .footer-mid {
+    @include footer-row;
+    @include row-gap-20;
 
     @include mobile {
-      padding-top: 0;
+      flex-direction: column;
     }
+
+    .about-courseware {
+      width: 50%;
+      font-size: 16px;
+
+      @include mobile {
+        width: 100%;
+      }
+    }
+
+    .oeg-section {
+      display: flex;
+      flex-flow: row wrap;
+      margin-left: 0;
+      margin-right: 0;
+      align-items: center;
+      
+      p {
+        font-weight: bold;
+        font-size: 16px;
+        a {
+          img {
+            vertical-align: middle !important;
+          }
+        }
+      }
+
+    }
+
+    .support-links-sm {
+      @include row-gap-20;
+      display:  none;
+
+      a {
+        font-size: 16px;
+        text-decoration: underline;
+      }
+
+      @include mobile {
+        display: flex;
+        flex-direction: column;
+        width: 55%;
+        font-weight: bold;
+      }
+    }
+
+  }
+
+
+  .footer-bottom {
+    @include footer-row;
+    @include row-gap-20;
+    flex-flow: row wrap-reverse;
+
+    .copyright-section {
+      display: flex;
+      align-items: end;
+      margin-right: 1rem !important;
+      p {
+        font-size: 16px;
+      }
+    }
+
+    .footer-social-icon {
+      height: 24px;
+    }
+    
+    .horizontal-list {
+      display: flex;
+      margin-top: auto;
+      ul {
+        list-style: none;
+        margin: 0;
+  
+        li {
+          display: inline-block;
+          padding-right: 28px;
+          margin-bottom: 5px;
+  
+          &:last-child {
+            padding-right: 0px;
+          }
+        }
+      }
+    }
+
   }
 
   a {
     color: black;
-  }
-
-  .mit-info {
-    font-size: 14px;
-    line-height: 24px;
-
-    @include desktop {
-      padding: 0;
-      float: left;
-      width: 44%;
-    }
-
-    @include mobile {
-      padding-bottom: 32px;
-    }
-
-    img {
-      width: 78px;
-      height: 41px;
-      margin: 0 auto 15px;
-      margin: 5px 22px 0 0;
-      
-    }
-
-    address {
-      overflow: hidden;
-      display: inline-block;
-      margin: 0;
-      font-style: normal;
-      white-space: pre-line;
-    }
-
-    .copyright {
-      text-align: left;
-    }
   }
 
   .right-info {
@@ -228,6 +312,12 @@
 
     @include desktop {
       padding: 0 32px;
+    }
+  }
+
+  #open-learning-logo {
+    img {
+      width: 220px;
     }
   }
 }
