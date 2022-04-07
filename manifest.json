@@ -156,12 +156,12 @@
       "description": "oeg_description",
       "label": "Open Learning Group Logo"
     },{
-      "identifier": "facebook",
+      "identifier": "facebook_logo",
       "type": "file",
       "description": "facebook_description",
       "label": "Facebook Logo"
     },{
-      "identifier": "instagram",
+      "identifier": "instagram_logo",
       "type": "file",
       "description": "instagram_description",
       "label": "Instagram Logo"
@@ -171,12 +171,12 @@
       "description": "linkedIn_description",
       "label": "LinkedIn Logo"
     },{
-      "identifier": "twitter",
+      "identifier": "twitter_logo",
       "type": "file",
       "description": "twitter_description",
       "label": "Twitter Logo"
     },{
-      "identifier": "youtube",
+      "identifier": "youtube_logo",
       "type": "file",
       "description": "youtube_description",
       "label": "Youtube Logo"
