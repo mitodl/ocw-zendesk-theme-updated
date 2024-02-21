@@ -49,12 +49,6 @@
       "label": "background_color_label",
       "value": "#FFFFFF"
     }, {
-      "identifier": "site_theme_color",
-      "type": "color",
-      "description": "site_theme_base_color_description",
-      "label": "site_theme_base_color_label",
-      "value": "#FD9D01"
-    },{
       "identifier": "header_background_color",
       "type": "color",
       "description": "header_background_color_description",
