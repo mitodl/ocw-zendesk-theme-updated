@@ -3,6 +3,11 @@ $header-height: 71px;
 
 .header {
 
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+
   .submit-a-request {
     color: white;
     font-size: 16px;
@@ -26,7 +31,7 @@ $header-height: 71px;
     padding: 5px 32px;
 
     .logo img{
-      width: 200px;
+      width: 250px; 
     }
 
   }
@@ -34,16 +39,14 @@ $header-height: 71px;
 }
 
 .support-center {
-  color: $site_theme_color;
+  color: white;
   font-weight: 600;
   font-size: 14px;
-  padding: 9px 0 0;
   line-height: 18px;
   display: inline-block;
 
   @include tablet {
     font-size: 24px;
-    padding: 12px 0 0;
     line-height: 32px;
   }
 }

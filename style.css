@@ -640,6 +640,10 @@ ul {
   justify-content: space-between;
   padding: 20px 2% !important;
 }
+.header .header-left {
+  display: flex;
+  align-items: center;
+}
 .header .submit-a-request {
   color: white;
   font-size: 16px;
@@ -654,22 +658,20 @@ ul {
     padding: 5px 32px;
   }
   .header .logo img {
-    width: 200px;
+    width: 250px;
   }
 }
 
 .support-center {
-  color: $site_theme_color;
+  color: white;
   font-weight: 600;
   font-size: 14px;
-  padding: 9px 0 0;
   line-height: 18px;
   display: inline-block;
 }
 @media (min-width: 768px) {
   .support-center {
     font-size: 24px;
-    padding: 12px 0 0;
     line-height: 32px;
   }
 }
@@ -1110,7 +1112,7 @@ ul {
   flex-flow: row wrap;
 }
 .footer .footer-top #open-learning-logo img {
-  width: 220px;
+  width: 128.65px;
 }
 .footer .footer-top .support-link-container {
   display: flex;
@@ -1313,7 +1315,7 @@ ul {
   }
 }
 .footer #open-learning-logo img {
-  width: 220px;
+  width: 128.65px;
 }
 
 .powered-by-zendesk {
