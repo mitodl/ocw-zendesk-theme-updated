@@ -1099,7 +1099,7 @@ ul {
   margin-left: 0;
   margin-right: 0;
   justify-content: space-between;
-  padding-bottom: 14px !important;
+  padding-bottom: 10px !important;
   flex-flow: row wrap;
 }
 .footer .footer-top #open-learning-logo img {
@@ -1126,7 +1126,7 @@ ul {
   margin-left: 0;
   margin-right: 0;
   justify-content: space-between;
-  padding-bottom: 14px !important;
+  padding-bottom: 10px !important;
   row-gap: 20px;
 }
 @media (max-width: 768px) {
@@ -1179,7 +1179,7 @@ ul {
   margin-left: 0;
   margin-right: 0;
   justify-content: space-between;
-  padding-bottom: 14px !important;
+  padding-bottom: 10px !important;
   row-gap: 20px;
   flex-flow: row wrap-reverse;
 }
