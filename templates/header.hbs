@@ -7,15 +7,14 @@
         <img src="{{settings.logo}}" class="site-logo" />
       </a>
     </div>
-    {{#link 'help_center' class="support-center"}}
-      HELP & FAQS
-    {{/link}}
-
    </div>
 
   <div class="nav-wrapper-desktop">
     <nav class="user-nav" id="user-nav" aria-label="{{t 'user_navigation'}}">
       <ul class="user-nav-list">
+        {{#link 'help_center' class="support-center"}}
+          HELP & FAQS
+        {{/link}}
         {{#if settings.contact_us}}
           <a href={{settings.contact_us}} class="submit-a-request">CONTACT US</a>
         {{else}}
@@ -88,6 +87,9 @@
           </li>
           <li class="nav-divider"></li>
         {{/if}}
+        {{#link 'help_center' class="support-center"}}
+          HELP & FAQS
+        {{/link}}
         {{#if settings.contact_us}}
           <a href={{settings.contact_us}} class="submit-a-request">CONTACT US</a>
         {{else}}

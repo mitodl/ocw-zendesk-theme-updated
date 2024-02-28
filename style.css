@@ -644,14 +644,19 @@ ul {
   display: flex;
   align-items: center;
 }
-.header .submit-a-request {
+.header .user-nav a {
   color: white;
   font-size: 16px;
   font-weight: bold;
   padding: 0;
 }
-.header .submit-a-request:hover {
+.header .user-nav a:hover {
   color: white !important;
+}
+@media (min-width: 768px) {
+  .header .user-nav a {
+    padding-left: 16px;
+  }
 }
 @media (max-width: 768px) {
   .header {
@@ -659,20 +664,6 @@ ul {
   }
   .header .logo img {
     width: 250px;
-  }
-}
-
-.support-center {
-  color: white;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 18px;
-  display: inline-block;
-}
-@media (min-width: 768px) {
-  .support-center {
-    font-size: 24px;
-    line-height: 32px;
   }
 }
 
@@ -705,7 +696,7 @@ ul {
   }
 }
 .logo img {
-  width: 260px;
+  width: 100%;
   display: block;
   height: auto;
 }
@@ -1108,7 +1099,7 @@ ul {
   margin-left: 0;
   margin-right: 0;
   justify-content: space-between;
-  padding-bottom: 1.5rem !important;
+  padding-bottom: 14px !important;
   flex-flow: row wrap;
 }
 .footer .footer-top #open-learning-logo img {
@@ -1135,7 +1126,7 @@ ul {
   margin-left: 0;
   margin-right: 0;
   justify-content: space-between;
-  padding-bottom: 1.5rem !important;
+  padding-bottom: 14px !important;
   row-gap: 20px;
 }
 @media (max-width: 768px) {
@@ -1188,7 +1179,7 @@ ul {
   margin-left: 0;
   margin-right: 0;
   justify-content: space-between;
-  padding-bottom: 1.5rem !important;
+  padding-bottom: 14px !important;
   row-gap: 20px;
   flex-flow: row wrap-reverse;
 }

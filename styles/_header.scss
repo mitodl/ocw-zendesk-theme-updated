@@ -8,7 +8,7 @@ $header-height: 71px;
     align-items: center;
   }
 
-  .submit-a-request {
+  .user-nav a {
     color: white;
     font-size: 16px;
     font-weight: bold;
@@ -16,6 +16,9 @@ $header-height: 71px;
 
     &:hover {
       color: white !important;
+    }
+    @include tablet {
+      padding-left: 16px;
     }
   }
 
@@ -36,19 +39,6 @@ $header-height: 71px;
 
   }
 
-}
-
-.support-center {
-  color: white;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 18px;
-  display: inline-block;
-
-  @include tablet {
-    font-size: 24px;
-    line-height: 32px;
-  }
 }
 
 .logo {
