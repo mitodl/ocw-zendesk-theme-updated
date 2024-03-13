@@ -442,15 +442,26 @@ ul {
   padding: 20px 2% !important;
 }
 
-.header .submit-a-request {
+.header .header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header .user-nav a {
   color: white;
   font-size: 16px;
   font-weight: bold;
   padding: 0;
 }
 
-.header .submit-a-request:hover {
+.header .user-nav a:hover {
   color: white !important;
+}
+
+@media (min-width: 768px) {
+  .header .user-nav a {
+    padding-left: 16px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -458,24 +469,7 @@ ul {
     padding: 5px 32px;
   }
   .header .logo img {
-    width: 200px;
-  }
-}
-
-.support-center {
-  color: $site_theme_color;
-  font-weight: 600;
-  font-size: 14px;
-  padding: 9px 0 0;
-  line-height: 18px;
-  display: inline-block;
-}
-
-@media (min-width: 768px) {
-  .support-center {
-    font-size: 24px;
-    padding: 12px 0 0;
-    line-height: 32px;
+    width: 250px;
   }
 }
 
@@ -544,6 +538,10 @@ ul {
   display: block;
   margin: 20px;
   color: black !important;
+}
+
+.nav-wrapper {
+  font-size: 16px;
 }
 
 .nav-wrapper a {
@@ -799,12 +797,12 @@ ul {
   margin-left: 0;
   margin-right: 0;
   justify-content: space-between;
-  padding-bottom: 1.5rem !important;
+  padding-bottom: 10px !important;
   flex-flow: row wrap;
 }
 
 .footer .footer-top #open-learning-logo img {
-  width: 220px;
+  width: 128.65px;
 }
 
 .footer .footer-top .support-link-container {
@@ -831,7 +829,7 @@ ul {
   margin-left: 0;
   margin-right: 0;
   justify-content: space-between;
-  padding-bottom: 1.5rem !important;
+  padding-bottom: 10px !important;
   row-gap: 20px;
 }
 
@@ -894,7 +892,7 @@ ul {
   margin-left: 0;
   margin-right: 0;
   justify-content: space-between;
-  padding-bottom: 1.5rem !important;
+  padding-bottom: 10px !important;
   row-gap: 20px;
   flex-flow: row wrap-reverse;
 }
@@ -1047,7 +1045,7 @@ ul {
 }
 
 .footer #open-learning-logo img {
-  width: 220px;
+  width: 128.65px;
 }
 
 .powered-by-zendesk {

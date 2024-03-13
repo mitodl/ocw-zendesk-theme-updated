@@ -3,7 +3,12 @@ $header-height: 71px;
 
 .header {
   
-  .submit-a-request {
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+
+  .user-nav a {
     color: white;
     font-size: 16px;
     font-weight: bold;
@@ -11,6 +16,9 @@ $header-height: 71px;
 
     &:hover {
       color: white !important;  
+    }
+    @include tablet {
+      padding-left: 16px;
     }
   }
 
@@ -26,26 +34,11 @@ $header-height: 71px;
     padding: 5px 32px;
     
     .logo img{
-      width: 200px; 
+      width: 250px; 
     }
 
   }
   
-}
-
-.support-center {
-  color: $site_theme_color;
-  font-weight: 600;
-  font-size: 14px;
-  padding: 9px 0 0;
-  line-height: 18px;
-  display: inline-block;
-
-  @include tablet {
-    font-size: 24px;
-    padding: 12px 0 0;
-    line-height: 32px;
-  }
 }
 
 .logo {
@@ -109,6 +102,8 @@ $header-height: 71px;
 }
 
 .nav-wrapper {
+  font-size: 16px;
+
   a {
     @include tablet {
       display: inline-block;
