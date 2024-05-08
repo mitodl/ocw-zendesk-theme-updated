@@ -93,14 +93,14 @@
     li {
       border-color: $brand_color;
 
-      h4 {
+      .blocks-item-title {
         color: $brand_color;
         font-size: 24px;
         line-height: 25px;
         font-weight: 600;
       }
 
-      p {
+      .blocks-item-description {
         color: black;
         font-size: 18px;
         line-height: 22px;
@@ -112,11 +112,11 @@
 
         a {
 
-          h4 {
+          .blocks-item-title {
             color: $brand_color;
           }
 
-          p {
+          .blocks-item-description {
             color: black;
           }
         }

@@ -647,7 +647,7 @@ ul {
 .header .user-nav a {
   color: white;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 600;
   padding: 0;
 }
 .header .user-nav a:hover {
@@ -707,7 +707,7 @@ ul {
 }
 
 .logo a {
-  display: inline-block;
+  display: block;
 }
 
 .logo a:hover, .logo a:focus, .logo a:active {
@@ -813,7 +813,7 @@ ul {
   border-radius: 50%;
 }
 .nav-wrapper-mobile .menu-button-mobile[aria-expanded=true] .icon-menu {
-  background: #f3f3f3;
+  background: $header_background_color;
 }
 .nav-wrapper-mobile .menu-list-mobile {
   position: absolute;
@@ -865,6 +865,7 @@ ul {
   width: 100%;
   height: 100%;
   color: $text_color;
+  font-weight: 600;
 }
 .nav-wrapper-mobile .menu-list-mobile-items a:active, .nav-wrapper-mobile .menu-list-mobile-items a:focus, .nav-wrapper-mobile .menu-list-mobile-items a:hover {
   background-color: #f3f3f3;
@@ -1040,7 +1041,6 @@ ul {
 .footer-language-selector {
   display: none;
   color: lighten($text_color, 20%);
-  display: inline-block;
 }
 .footer .contact-block {
   text-align: center;
@@ -1506,6 +1506,8 @@ ul {
 }
 .hero .search {
   overflow: hidden;
+  border-radius: 0;
+  border-style: none;
 }
 .hero .search:before {
   display: none;
@@ -1514,13 +1516,13 @@ ul {
   float: right;
   width: 100px;
   background: $brand_color;
-  font-size: 20px;
   font-weight: 600;
   height: 65px;
   min-width: 100px;
   padding: 0 10px;
   font-size: 18px;
   line-height: 22px;
+  margin-left: 20px;
 }
 @media (min-width: 768px) {
   .hero .search input[type=submit] {
@@ -1533,13 +1535,19 @@ ul {
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
+  padding-left: 20px;
+  border-style: solid;
+  border-width: 1px;
+}
+.hero .search input[type=search]:focus {
+  border-color: $brand_color;
 }
 .hero .search input[type=search]::placeholder {
   color: black;
 }
 @media (min-width: 768px) {
   .hero .search input[type=search] {
-    width: calc(100% - 150px);
+    width: calc(100% - 195px);
   }
 }
 
@@ -1790,13 +1798,13 @@ ul {
 .container .blocks-list li {
   border-color: $brand_color;
 }
-.container .blocks-list li h4 {
+.container .blocks-list li .blocks-item-title {
   color: $brand_color;
   font-size: 24px;
   line-height: 25px;
   font-weight: 600;
 }
-.container .blocks-list li p {
+.container .blocks-list li .blocks-item-description {
   color: black;
   font-size: 18px;
   line-height: 22px;
@@ -1805,10 +1813,10 @@ ul {
 .container .blocks-list li:hover {
   background: none;
 }
-.container .blocks-list li:hover a h4 {
+.container .blocks-list li:hover a .blocks-item-title {
   color: $brand_color;
 }
-.container .blocks-list li:hover a p {
+.container .blocks-list li:hover a .blocks-item-description {
   color: black;
 }
 .container .blocks-list li .category-image {
@@ -3569,6 +3577,9 @@ ul {
   .collapsible-sidebar-body {
     display: block;
   }
+}
+.collapsible-sidebar-body .sidenav-item {
+  color: $text_color;
 }
 .collapsible-sidebar[aria-expanded=true] {
   max-height: none;
